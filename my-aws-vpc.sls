@@ -6,6 +6,7 @@ vpc-6ba0070d:
   - tags:
       Name: VPC-vRA
       LOB: IT
+      Env: Production
   - cidr_block_association_set:
     - AssociationId: vpc-cidr-assoc-94cd04fc
       CidrBlock: 172.31.0.0/16
